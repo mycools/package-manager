@@ -10,11 +10,11 @@ It allows you to quickly install a package via composer, if necessary, and then 
 
 To install, first install with composer: 
 
-	composer require patinthehat/laravel-package-manager
+	composer require mycools/package-manager
 	
 Then, register the service provider by editing `config/app.php` and adding:
 
-	LaravelPackageManager\LaravelPackageManagerServiceProvider::class,
+	Mycools\LaravelPackageManagerServiceProvider::class,
 	
 to the `$providers` array.
 	
